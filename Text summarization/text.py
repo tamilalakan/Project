@@ -55,7 +55,7 @@ def build_similarity_matrix(sentences, stop_words):
 def generate_summary(file_name, top_n=100):
     stop_words = stopwords.words('english')
     summarize_text = []
-    f=open('Output.txt','wb')
+    f=open('Output.txt','w+')
 # Read text anc split it
 
     sentences =  read_article(file_name)
