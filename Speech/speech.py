@@ -40,7 +40,7 @@ def jarvis(data):
         data = data.split(" ")
         location = data[2]
         speak("Hold on, I will show you where " + location + " is.")
-        os.system("chrome-browser https://www.google.nl/maps/place/" + location + "/&amp;")
+        os.system("google-chrome https://www.google.nl/maps/place/" + location + "/&amp;")
 
     if "exit" in data:
 	exit()
