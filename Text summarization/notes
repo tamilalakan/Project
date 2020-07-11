@@ -1,0 +1,7 @@
+for spacy
+	pip install spacy
+
+if 'en' not worked :
+	pip install -U spacy && python -m spacy download en
+
+
